@@ -150,21 +150,6 @@ VWRF is the communications backbone of the **Neverworld Coast Guard (NWCG)** —
 ---
 
 ## Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    gridxchange.co                           │
-│                                                             │
-│  Flask/Gunicorn  ←→  MariaDB (vwrf)  ←→  Nginx/SSL        │
-│                                                             │
-│  /api/v1/register    /api/v1/transmit    /api/v1/receive   │
-│  /api/v1/tune        /api/v1/mayday      /api/v1/history   │
-│  /api/v1/heartbeat   /api/v1/mayday/cancel                 │
-│  /admin/broadcast    /admin/channel      /admin/active      │
-└─────────────────────────────────────────────────────────────┘
-         ↑                    ↑                    ↑
-    HUD (LSL)           Scanner (LSL)       Dispatch Panel (LSL)
-  llHTTPRequest       llHTTPRequest         llHTTPRequest
 ```
 
 - **Backend:** Python/Flask, MariaDB, Nginx, Gunicorn
@@ -206,8 +191,8 @@ VWRF will be available as a hosted service for other OpenSimulator grids.
 |------|-------|----------|---------|
 | **Community** | Free | 1 shared public channel | Cross-grid hailing frequency |
 | **Crew** | $5/mo | 3 private channels | Perfect for small RP communities |
-| **Fleet** | $15/mo | 10 private channels | Mid-size grids and organizations |
-| **Armada** | $25/mo | Unlimited + custom branding | Large grids, full white-label |
+| **Fleet** | TBD | 10 private channels | Mid-size grids and organizations |
+| **Armada** | TBD | Unlimited + custom branding | Large grids, full white-label |
 
 **Interested in early access?** Contact us at gridxchange.co or reach out to **Gundahar Bravin** on Neverworld Grid.
 
