@@ -35,11 +35,9 @@ Whether you are a sailor calling the harbor master, a pilot requesting ATC clear
 ![Distress at Sea](docs/images/9WJi3.jpg)
 *Distress call received... Thanks to VWRF*
 
-![Emergency Landing](docs/images/ATC_Imagery.jpg)
-*Emergency landing... Engine failure... Thanks to VWRF*
 
 ![Officer Down](docs/images/9WJpopo.jpg)
-*Shots fired... Officer Down... Thanks to VWRF*
+*Shots fired... Officer Down...Help Arrives.... Thanks to VWRF*
 
 </div>
 
