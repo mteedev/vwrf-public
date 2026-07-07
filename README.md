@@ -150,7 +150,7 @@ VWRF is the communications backbone of the **Neverworld Coast Guard (NWCG)** —
 ---
 
 ## Architecture
-```
+
 
 - **Backend:** Python/Flask, MariaDB, Nginx, Gunicorn
 - **In-world:** LSL/OSSL scripts using `llHTTPRequest` and `osSetDynamicTextureDataFace`
